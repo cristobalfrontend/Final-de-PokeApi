@@ -1,0 +1,86 @@
+.ctn-combate {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60vw;
+    height: 80vh;
+    color: #424949;
+    margin: 2rem;
+}
+
+.ctn-seleccionar-peleador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3575ff;
+    margin: 4rem 0;
+    width: 35%;
+}
+
+.ctn-stat-peleador{
+    display:table-caption;
+    flex-direction:column;
+    text-align: center;
+}
+
+
+.capitalizate-titulo{
+    text-transform: capitalize;
+}
+
+.button-punch{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.ctn-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.ctn-button button {
+    background-color: gold;
+    color: #3575ff;
+    cursor: pointer;
+    border: 2px solid #dfe1e5;
+}
+
+.button-especial{
+    background-color: gold;
+    border: 2px solid #dfe1e5;
+    color: #424949;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+    cursor: pointer;
+}
+
+.button-especial:disabled {
+    background-color:#dfe1e5;
+    color: #424949;
+    cursor: not-allowed;
+}
+
+
+.button-punch:disabled{
+    background-color:#dfe1e5;
+    color: #424949;
+    cursor: not-allowed;
+}
+
+.ctn-win {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background-color: gold;
+}
+
+
+
